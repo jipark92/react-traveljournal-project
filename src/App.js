@@ -7,6 +7,7 @@ export default function App() {
         return (
             <MainContent 
                 img={data.imageUrl}
+                googleurl={data.googleMapsUrl}
                 description={data.description}
                 startdate={data.startDate}
                 enddate={data.endDate}

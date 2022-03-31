@@ -1,16 +1,19 @@
 import React from "react";
+import locationImage from '../images/location.png'
 
 export default function MainContent(props) {
     return (
         <main className="content">
-            <div className="image-container">
-                <img src={props.img} className="location-image"/>
-            </div>
+            <img src={props.img} className="location-image"/>
             <div className="info">
-                <p>{props.location}</p>
-                <h1>{props.title}</h1>
-                <p>{props.enddate} to {props.startdate}</p>
-                <p>{props.description}</p>
+                <div className="location-container">
+                    <img src={locationImage} className="location-pic"/>
+                    <p className="location">{props.location}</p>
+                    <a href={props.googleurl} className="location-link">View on Google Maps</a>
+                </div>
+                <h2 className="location-title">{props.title}</h2>
+                <p className="date">{props.enddate} to {props.startdate}</p>
+                <p className="desc">{props.description}</p>
             </div>
         </main>
     )
