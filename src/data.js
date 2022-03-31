@@ -16,11 +16,12 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "27 May, 2021",
         endDate: "8 Jun, 2021",
-        description: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of Sydney Harbour, it is widely regarded as one of the world's most famous and distinctive buildings and a masterpiece of 20th century architecture."
+        description: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of Sydney Harbour, it is widely regarded as one of the world's most famous and distinctive buildings and a masterpiece of 20th century architecture.",
+        imageUrl:"https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzNzM0MDA3OQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
     },
     {
         id: 2,
-        title: "Geirangerfjord",
+        title: "Geira",
         location: "Norway",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
         startDate: "01 Oct, 2021",
